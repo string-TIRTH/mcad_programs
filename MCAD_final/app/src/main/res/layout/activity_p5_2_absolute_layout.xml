@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Absolute Layout  Login:"
+        android:textSize="40dp"
+        android:layout_x="20dp"
+        android:layout_y="50dp"
+        ></TextView>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="200dp"
+        android:hint="Username"
+        android:textSize="30dp"
+        android:background="#8C9EFF"
+        ></EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="270dp"
+        android:hint="Password"
+        android:textSize="30dp"
+        android:background="#8C9EFF"
+        ></EditText>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_y="350dp"
+        android:layout_x="200dp"
+        android:text="Login"
+        android:textSize="30dp"
+        ></Button>
+</AbsoluteLayout>

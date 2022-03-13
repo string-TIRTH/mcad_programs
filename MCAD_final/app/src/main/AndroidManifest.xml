@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mcad_final">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MCAD_final">
+        <activity
+            android:name=".intent_demo_2"
+            android:exported="false" />
+        <activity
+            android:name=".intent_demo_1"
+            android:exported="false" />
+        <activity
+            android:name=".intent_bundle_2"
+            android:exported="false" />
+        <activity
+            android:name=".Intent_bundle"
+            android:exported="false" />
+        <activity
+            android:name=".spinner_demo"
+            android:exported="false" />
+        <activity
+            android:name=".file1"
+            android:exported="false" />
+        <activity
+            android:name=".p21_listactivity_2"
+            android:exported="false" />
+        <activity
+            android:name=".p20_listactivity_1"
+            android:exported="false" />
+        <activity
+            android:name=".p19_listview"
+            android:exported="false" />
+        <activity
+            android:name=".p18_radio_btn"
+            android:exported="false" />
+        <activity
+            android:name=".p17_autocompleteTV_btn"
+            android:exported="false" />
+        <activity
+            android:name=".p16_AutocompleteTV"
+            android:exported="false" />
+        <activity
+            android:name=".p15_responsive_loginpg"
+            android:exported="false" />
+        <activity
+            android:name=".p14_scrollview"
+            android:exported="false" />
+        <activity
+            android:name=".p13_2_checkbox_event"
+            android:exported="false" />
+        <activity
+            android:name=".p13_1_checkbox_event"
+            android:exported="false" />
+        <activity
+            android:name=".p12_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".p11_student_register"
+            android:exported="false" />
+        <activity
+            android:name=".p10_cricket_app"
+            android:exported="false" />
+        <activity
+            android:name=".p9_3_button_event"
+            android:exported="false" />
+        <activity
+            android:name=".p9_2_button_event"
+            android:exported="false" />
+        <activity
+            android:name=".p9_1_Button_event"
+            android:exported="false" />
+        <activity
+            android:name=".p8_dynamic_control_add"
+            android:exported="false" />
+        <activity
+            android:name=".p7_2_frame_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p7_1_frame_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p6_4_table_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p6_3_table_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p6_2_table_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p6_1_Table_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p5_2_absolute_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p5_1_absolute_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p4_4_relative_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p4_3_relative_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p4_2_relative_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p4_1_relative_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p3_4_linear_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p3_3_linear_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p3_2_linear_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p3_1_linear_layout"
+            android:exported="false" />
+        <activity
+            android:name=".p2_android_life_cycle"
+            android:exported="false" />
+        <activity
+            android:name=".p1_default_application"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

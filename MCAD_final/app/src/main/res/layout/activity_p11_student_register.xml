@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".p11_student_register">
+
+    <!--Create a student form having rollno, name,department,
+     mobile no,email,gender,hobbies data and when submit button is pressed ,
+     it will show message with name and department -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:layout_margin="5dp"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rollno"
+        android:layout_margin="5dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/dep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter department"
+        android:layout_margin="5dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:layout_margin="5dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Gender"
+        android:layout_margin="5dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/hobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Hobbies"
+        android:layout_margin="5dp"
+        ></EditText>
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Submit"
+        android:onClick="display"
+        ></Button>
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ></TextView>
+    <TextView
+        android:id="@+id/tvdep"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ></TextView>
+</LinearLayout>

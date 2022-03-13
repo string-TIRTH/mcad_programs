@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".p9_3_button_event">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Button demo 3"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        ></TextView>
+    <EditText
+        android:id="@+id/doller_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Amount in $"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        ></EditText>
+
+    <TextView
+        android:id="@+id/rup_dis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:text=""></TextView>
+    <Button
+        android:id="@+id/convert_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="Convert "
+        android:onClick="convert_money"
+        ></Button>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

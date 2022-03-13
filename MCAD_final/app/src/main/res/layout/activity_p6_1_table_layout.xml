@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:stretchColumns="*"
+    tools:context=".p6_1_Table_layout">
+    <TableRow>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0,0"
+            android:backgroundTint="#000000"
+            android:textColor="#FFA000"
+            android:layout_margin="5dp"
+            android:layout_column="0"
+            ></Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#111111"
+            android:textColor="#FFA011"
+            android:text="0,1"
+            android:layout_margin="5dp"
+            ></Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0,2"
+            android:textColor="#FFA022"
+            android:backgroundTint="#222222"
+            android:layout_margin="5dp"
+            ></Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0,3"
+            android:textColor="#FFA033"
+            android:backgroundTint="#333333"
+            android:layout_margin="5dp"
+            ></Button>
+    </TableRow>
+    <TableRow android:gravity="center">
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1,0"
+            android:backgroundTint="#444444"
+            android:textColor="#FFA044"
+            android:layout_margin="5dp"
+            ></Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#555555"
+            android:textColor="#FFA055"
+            android:text="1,1"
+            android:layout_margin="5dp"
+            ></Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1,2"
+            android:textColor="#FFA066"
+            android:backgroundTint="#666666"
+            android:layout_margin="5dp"
+            ></Button>
+
+    </TableRow>
+    <TableRow android:gravity="center">
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2,0"
+            android:backgroundTint="#888888"
+            android:textColor="#FFA088"
+            android:layout_margin="5dp"
+            ></Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#999999"
+            android:textColor="#FFA099"
+            android:text="2,1"
+            android:layout_margin="5dp"
+            ></Button>
+
+    </TableRow>
+    <TableRow android:gravity="center">
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3,0"
+            android:backgroundTint="#AAAAAA"
+            android:textColor="#FFA0AA"
+            android:layout_margin="5dp"
+            ></Button>
+    </TableRow>
+</TableLayout>

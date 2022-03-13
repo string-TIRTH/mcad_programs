@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".p9_2_button_event">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button demo 2"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter String 1"
+        android:layout_gravity="center_horizontal"
+
+        ></EditText>
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter String 2"
+        android:layout_gravity="center_horizontal"
+        ></EditText>
+    <Button
+        android:id="@+id/concat_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Concat"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        ></Button>
+    <TextView
+        android:id="@+id/string3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textColor="#FFA000"
+        ></TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
